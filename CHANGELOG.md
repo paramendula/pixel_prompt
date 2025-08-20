@@ -1,6 +1,25 @@
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+## [0.1.2](https://github.com/primequantuM4/pixel_prompt/compare/v0.0.2...v0.1.2) 2025-08-20
+### Features
+
+* **components:** introduce stateful components with lifecycle and state management API  
+* **input:** improved input manager with focus handling and keyboard/mouse interactivity  
+* **examples:** add Snake game demo showcasing interactive components  
+
+### Bug Fixes
+
+* focus now retains position after screen redraw with `setState`  
+* optimized rendering to avoid unnecessary conditionals and fragments from previous buffer  
+* fixed button and textfield initialization issues  
+* improved quit behavior (graceful exit on ctrl-c)  
+
+### Chore / Docs
+
+* reorganized golden files and common directories  
+* added documentation across `lib/core`, `lib/events`, `lib/layout_engine`, `lib/terminal`, etc.  
+* removed unused methods and stale functions  
 
 ### [0.0.3](https://github.com/primequantuM4/pixel_prompt/compare/v0.0.2...v0.0.3) (2025-06-12)
 
