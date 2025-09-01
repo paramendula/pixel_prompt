@@ -3,6 +3,7 @@
 
 [![documentation](https://img.shields.io/badge/documentation-dartdoc-blue)](https://pub.dev/documentation/pixel_prompt/latest/)
 
+![PixelPrompt Demo](assets/snake_demo.gif)
 
 PixelPrompt is a **Terminal UI (TUI) framework for Dart**, inspired by Flutter’s widget-driven architecture.  
 It brings Dart’s familiar, declarative UI style to the command line, letting you build interactive, styled terminal applications with **layouts, stateful components, and keyboard/mouse events**.
@@ -32,7 +33,7 @@ PixelPrompt bridges that gap by offering:
 
 ```yaml
 dependencies:
-  pixel_prompt: ^0.1.0
+  pixel_prompt: ^0.1.3
 ```
 or using `pub add`
 ```bash
@@ -83,6 +84,10 @@ dart run hello_world.dart
 ```
 ---
 ### Examples 
+![Counter Demo](assets/counter_demo.png)
+
+![Stopwatch Demo](assets/stop_watch_demo.png)
+
 - [Counter App](https://github.com/primequantuM4/pixel_prompt/blob/main/example/stateful_component_demo/bin/counter_demo.dart) — demonstrates stateful components and buttons.
 - [Stopwatch App](https://github.com/primequantuM4/pixel_prompt/blob/main/example/buildable_component_demo/bin/stop_watch_demo.dart)  — demonstrates timers and dynamic updates.
 ---
@@ -92,6 +97,7 @@ dart run hello_world.dart
 - Visual Debugger
 ---
 ### Contributing
+Contributions are welcome and appreciated!  
 1. Fork the repo and clone it.
 2. Install dependencies with:
 ```bash
